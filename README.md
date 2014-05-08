@@ -1,7 +1,7 @@
 Shi-Shi
 =======
 
-Growroom Controller
+Arduino Growroom Controller
 
 This controller is using an:
 
