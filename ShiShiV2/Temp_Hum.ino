@@ -29,15 +29,15 @@
     }
   
 
-   if (h < 50)    //If humidity is below 50%
+   if (h < 45)    //If humidity is below 50%
     {
-      digitalWrite(HUM_PIN, LOW);   //Run the fan
+      digitalWrite(HUM_PIN, LOW);   //Run the humidifier
     //  digitalWrite(humLED, HIGH);
       //Serial.println("Humidifing");//For Debug
       lcd.setCursor ( 3, 1 );
       lcd.print("H+");
     }
-    else if (h > 51) // add a little hysteresis to prevent rapid cycling due to noise
+    else if (h > 50) // add a little hysteresis to prevent rapid cycling due to noise
     {
        digitalWrite(HUM_PIN, HIGH);  //Stop fan when humidity 71% or higher
    //    digitalWrite(humLED, LOW);

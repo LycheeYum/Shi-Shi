@@ -2,9 +2,9 @@ void sendToCosm(){
  
     // Reading temperature or humidity takes about 250 milliseconds!
   // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
-  int h = dht.readHumidity();
-  int t = dht.readTemperature();
-  int tf = ((t*9)/5) + 32;
+  float h = dht.readHumidity();
+  float t = dht.readTemperature();
+  float tf = ((t*9)/5) + 32;
   
   int hum = 0;
   hum = digitalRead(HUM_PIN);

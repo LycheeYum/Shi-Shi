@@ -7,7 +7,7 @@
  *Shenzhen Sun Rise/Set Calculations
  *Temp sensor reading
  *
- * A Processing example sketch to automatically send the messages is inclided in the download
+ * A Processing example sketch to automatically send the messages is included in the download
  *  NOW WORKING - REMOVED THE TEMP STUFF
  *  8/11/13 add  exhaust fan control
  *  8/14/13 lower humidity level to 55 

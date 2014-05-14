@@ -1,7 +1,7 @@
 /* 
  *Lychee Shishi.pde
- * This if code is intended to control the growing area for an indoor growing area
- *kugiyv
+ * This if code is intended to control the climate for an indoor growing area
+ *
  *Working Lights 
  *RTC Time retreival
  *Shenzhen Sun Rise/Set Calculations
@@ -10,7 +10,8 @@
  * A Processing example sketch to automatically send the messages is inclided in the download
  *  NOW WORKING - REMOVED THE TEMP STUFF
  *  8/11/13 add  exhaust fan control
- *  8/14/13 lower humidity level to 55 
+ *  8/14/13 lower humidity level to 70
+ *  5/13/14 Keep humidity in a range of 40-50
  */ 
  
 #include <Arduino.h>
